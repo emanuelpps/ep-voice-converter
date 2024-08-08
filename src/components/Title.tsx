@@ -1,7 +1,7 @@
 import React from "react";
-import { Props as TitleProp } from "../types/Types";
+import { TitleProps } from "../types/Types";
 
-const Title: React.FC<TitleProp> = ({ title }) => (
+const Title: React.FC<TitleProps> = ({ title }) => (
   <div
     className="flex justify-center items-center w-full"
     id="text-instructions"

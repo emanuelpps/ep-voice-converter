@@ -1,6 +1,8 @@
+export interface TitleProps {
+  title: string;
+}
 
-export interface Props {
-    title: string;
-    setIsonPress: () => void
-    isOnPress: boolean
+export interface ButtonProps {
+  isOnPress: boolean;
+  setIsOnPress: (value: boolean) => void;
 }
