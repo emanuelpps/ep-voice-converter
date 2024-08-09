@@ -3,7 +3,6 @@ module.exports = {
   env: { browser: true, es2020: true },
   extends: [
     'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:react-hooks/recommended',
   ],
@@ -13,7 +12,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
     tsconfigRootDir: __dirname,
   },
   plugins: ['react-refresh'],
